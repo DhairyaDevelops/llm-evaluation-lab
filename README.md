@@ -2,6 +2,8 @@
 
 A small, reproducible review tool that turns **human-scored response evaluations** into an auditable JSON report and a readable Markdown summary.
 
+[Read the case study](CASE_STUDY.md) for the design choices, synthetic walkthrough, verification and limitations.
+
 The useful part is not an invented leaderboard: it is a reliable path from a review rubric to response-level decisions, critical-failure flags and comparisons on the **same test cases**.
 
 > **Portfolio demonstration.** The included CedarDesk dataset is entirely synthetic. Prompts, responses and illustrative scores were authored with AI assistance; they have not been independently human-reviewed. The tool makes no model calls, and the output is not evidence about any real model or client. `draft` and `revised` are fictional response variants.
